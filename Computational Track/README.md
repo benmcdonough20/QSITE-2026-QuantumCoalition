@@ -53,10 +53,6 @@ Abstract Circuit
       ↓
   [Scheduling]       pack gates into parallel time steps              ⬅ CORE CHALLENGE
       ↓
-  [Decomposition]    rewrite gates into hardware-native gate set     ⬅ STRETCH GOAL A
-      ↓
-  [1Q Optimization]  fuse/cancel redundant single-qubit gates        ⬅ STRETCH GOAL B
-      ↓
 Executable Circuit
 ```
 
