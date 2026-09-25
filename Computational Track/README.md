@@ -73,9 +73,8 @@ Executable Circuit
 ## What You Submit
 
 1. A `solve(program, hardware_graph)` function that returns a placement and routed program
-2. (Optional) `decompose()` and `optimize_1q()` functions for stretch goals
-3. A 1–2 page writeup explaining your approach
-4. A 3–5 minute demo/presentation
+2. A 1–2 page writeup explaining your approach
+3. A 3–5 minute demo/presentation
 
 ## How You're Scored
 
@@ -88,7 +87,7 @@ score = Σ_benchmarks [ swap_count + 0.5 × depth ]
 - [PostQuantum: Routing Quantum Information](https://postquantum.com/quantum-computing/routing-quantum-information/) - visual intro to SWAP routing
 - [IBM SABRE Tutorial](https://quantum.cloud.ibm.com/docs/en/tutorials/transpilation-optimizations-with-sabre) - the industry-standard routing algorithm explained
 - [Python `networkx` docs](https://networkx.org/documentation/stable/) - graph algorithms you'll use heavily
-- [PennyLane: Compilation of Quantum Circuits](https://pennylane.ai/qml/demos/tutorial_circuit_compilation) - useful for stretch goals
+- [PennyLane: Compilation of Quantum Circuits](https://pennylane.ai/qml/demos/tutorial_circuit_compilation)
 
 ---
 
@@ -237,14 +236,7 @@ Your benchmark score is calculated as follows:
 benchmark_score = (# SWAPS) × 1.0 + (circuit depth) × 0.5 
 ```
 
-Your total core score is the sum across all benchmarks.
-
-If you also attempted Stretch Goal A and improved the bad decomposer by N gates, then your score improves by:
-
-```
-stretch_A_bonus = N × 0.1
-```
-A lower score is better.
+Your total core score is the sum across all benchmarks. A lower score is better.
 
 ## What "Correct" Means
 
